@@ -1,11 +1,17 @@
 
 {
-  "name": "Contador de Agua",
+   "name": "Contador de Agua",
   "short_name": "Agua",
+  "description": "App para registrar tu consumo diario de agua y ayudarte a alcanzar tu meta.",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#e0f7fa",
   "theme_color": "#4dd0e1",
+  "orientation": "portrait",
+  "id": "/contador-agua/",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
   "icons": [
     {
       "src": "icon.png",
