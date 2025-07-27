@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contador de Agua</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contador de Agua 💧</h1>
+
+<label for="metaAgua">Meta diaria (ml):</label>
+<input type="number" id="metaAgua" placeholder="Ej. 2000">
+<button onclick="guardarMeta()">Guardar meta</button>
+
+<p><strong>Meta actual:</strong> <span id="metaActual">No definida</span></p>
+<p><strong>Total consumido:</strong> <span id="contador">0</span> ml</p>
+<div class="progreso">
+  <div id="barraProgreso"></div>
+</div>
+<button onclick="agregarAgua(250)">+250 ml</button>
+<button onclick="agregarAgua(500)">+500 ml</button>
+<button onclick="resetear()">Resetear</button>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
