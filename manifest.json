@@ -17,5 +17,19 @@
     "sizes": "512x512",
     "type": "image/png"
   }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/app-home.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "label": "Pantalla principal"
+    },
+    {
+      "src": "screenshots/app-progreso.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "label": "Progreso diario"
+    }
   ]
 }
